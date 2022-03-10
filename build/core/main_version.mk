@@ -25,3 +25,7 @@ ADDITIONAL_SYSTEM_PROPERTIES  += \
     org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
     org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
     org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE)
+
+# CipherOS Android 12L Specific Props
+ADDITIONAL_SYSTEM_PROPERTIES += \
+    ro.cipher.settings.android_version=12L
